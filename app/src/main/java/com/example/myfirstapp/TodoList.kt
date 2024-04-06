@@ -16,6 +16,6 @@ fun getFakeTodoList(): List<TodoList>{
     return listOf<TodoList>(
         TodoList(1, "First Todo", Date.from(Instant.now())),
         TodoList(2, "Second Todo", Date.from(Instant.now())),
-        TodoList(3, "Third Todo", Date.from(Instant.now())),
+        TodoList(3, "Third Todo, how's it going sir, how are you doing this fine evening...", Date.from(Instant.now())),
     );
 }
